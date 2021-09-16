@@ -1,0 +1,45 @@
+div {
+    background-color:#EEE;
+    border-width: 5px;
+    text-align: center;
+     width: 100px;
+     height: 100px; 
+     display: inline-block;
+     padding: 5px;
+     outline-color: black;
+     outline-width:10px;
+     outline-style:solid ;
+     /* this is  Abbreviation to code  */
+     outline:10px rgb(0, 0, 0) solid ;
+     margin: 40px;
+}
+.one-div {
+    border-style:solid ;
+    border-color: red;
+    /* this is  Abbreviation to code  */
+    border: red solid ;
+}
+.tow-div {
+ border-color: blue green ;
+ border-style: solid; 
+ /* this is  Abbreviation to code  */
+}
+.thre-div {
+ border-style: dashed ;
+ border-color: red green blue yellow;
+}
+
+p {
+    text-transform: capitalize;
+    background-color: #EEE;
+    margin: 20px;
+    padding: 10px;
+    padding-left: 20px ;
+    border-left: 4px red solid ;
+}
+.five-p {
+    visibility: hidden;
+}
+.six-p {
+    border-left:4px rgb(16 142 130 / 91%) solid ;
+}

@@ -1,0 +1,75 @@
+/*---------------- this is a one task */
+.parent {
+    background-color: #eee;
+    color:#000;
+    text-transform: capitalize;
+    width: 480px;
+    height: 300px;
+    margin-left: 30px;
+    transition-property: margin-top;
+    transition-duration: 1s;
+    transition-delay: 0.2s;
+    margin-top: 100px;
+    -webkit-transition-delay: 0.2s;
+    -moz-transition-duration: 1s;
+}
+.parent:hover {
+    margin-top: 0px;
+}
+.child-1 {
+    background-color: lightblue;
+    margin-bottom: 0;
+}
+.child-1, .child-2{
+    padding: 20px; 
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.child-2 {
+    background-color:rgb(152, 156, 158);
+    margin-top: 5px;
+    transition-property: margin-top;
+    transition-duration: 1s;
+    transition-delay: 0.2s;
+}
+.parent:hover >.child-2{
+
+    margin-top:10%;
+}
+/*--------------------- this is a tow task------------ */
+/* 
+div {
+    
+    visibility: hidden;
+    position: relative;
+    
+}
+div:after {
+    visibility: visible;
+    background-color: #eee;
+    margin-top: 90px;
+    color: #000 !important;
+    border: none !important;
+    text-align: center !important;
+    width: 900px !important;
+    position: absolute;
+    content: "elzero";
+    padding: 30px;
+    left: 0px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+} */
+
+/*---------------------this is three task---------------*/
+/* :root {
+    --mainColor: #009688;
+    --mainPadding: 10px;
+  } */
+  
+  /* div {
+    color: var(--mainColor, red);
+    padding: var(--mainPadding, 10px) ;
+    margin-bottom: 30px;
+    outline: solid var(--mainColor , black) 5px ;
+  } */

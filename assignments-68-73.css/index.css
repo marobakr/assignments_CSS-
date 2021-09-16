@@ -1,0 +1,193 @@
+                            /* this is a frist task */
+ /* :root {
+      --main-color:#ff5722;
+ }
+h1 {
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffff;
+  top: 139px;
+  margin: 0 auto;
+  padding: 30px;
+  position: relative;
+  transform: translate(10px , 100px);
+  font-size: xxx-large;
+  }
+h1::after {
+  content: "";
+  height: 100px;
+  background-color: var(--main-color);
+  position: absolute;
+  z-index: -1;
+  width: 160px;
+  padding-right: 60px;
+  transform: skew(-8deg,353deg);
+}
+h1::before {
+  content: "";
+  width: 160px;
+  height: 100px;
+  background-color:var(--main-color);
+  position: absolute;
+  z-index: -1;
+  padding-right: 60px;
+  transform: skew(188deg,187deg);
+  border-bottom-left-radius: 32px
+} */
+  /* this code ..are you want to paint star */
+/*
+  h1 {
+   margin: 50px 0;
+  position: relative;
+  display: block;
+  color: red;
+  width: 0px;
+  height: 0px;
+  border-right: 100px solid transparent;
+  border-bottom: 70px solid red;
+  border-left: 100px solid transparent;
+  transform: rotate(35deg);
+}
+h1:before {
+  border-bottom: 80px solid red;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -45px;
+  left: -65px;
+  display: block;
+  content: '';
+  transform: rotate(-35deg);
+}
+h1:after {
+  position: absolute;
+  display: block;
+  color: red;
+  top: 3px;
+  left: -105px;
+  width: 0px;
+  height: 0px;
+  border-right: 100px solid transparent;
+  border-bottom: 70px solid red;
+  border-left: 100px solid transparent;
+  transform: rotate(-70deg);
+  content: '';
+} */
+                            /* this is a second task */
+
+/* :root {
+  --main-color:#009688;
+}
+h1 {
+  width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    color: #fff;
+    position: relative;
+    margin-top: 50px;
+}
+h1::before {
+  content: "";
+  background-color: var(--main-color);
+  width: 200px;
+  height: 80px;
+  position: absolute;
+  z-index: -1;
+}
+h1::after {
+  content: "";
+  background-color: var(--main-color);
+  width: 27px;
+  transform: skew(
+22deg
+, 
+0deg
+);
+  left: -43px;
+  height: 80px;
+  position: absolute;
+  border-right: #fff 9px solid;
+} */
+                            /* this is a three task */
+.class {
+  transform: matrix (3, 0.2679, 0, 3, 20, 100);
+ /* the result */
+ transform: translatex() translateY() scaleX() scaleY() skewX() skewY()
+}
+                            /* this is a four task */
+
+/* div {
+  width: 255px;
+  border-right: 8px solid;
+  height: 344px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 137px;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #607d8b;
+  transform: rotate(
+90deg
+);
+}
+div::after {
+  content: "";
+  width: 237px;
+  height: 237px;
+  background-color: black;
+  position: absolute;
+  z-index: -1;
+  right: 135px;
+  border-right: 7px solid white;
+  border-top: 7px solid white;
+  transform: rotate(
+45deg
+);
+}
+div::before {
+  content: "Elzero";
+  position: absolute;
+  width: 10px;
+  font-size: xx-large;
+  height: 10px;
+  color: white;
+  right: 25px;
+  bottom: 10px;
+  transform: rotate(
+-89deg
+);
+} */
+                            /* this is a five task */
+div {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  margin: 0 auto;
+  transform: rotate(90deg);
+  
+}
+div:after {
+  content: "";
+  width: 500px;
+  position: absolute;
+  height: 5px;
+  border: 1px solid #ddd;
+}
+div::before {
+  content: "";
+    width: 500px;
+    transform: translate(0px, 21px);
+    height: 5px;
+    top: 93px;
+    position: absolute;
+    border: 1px solid #ddd
+}

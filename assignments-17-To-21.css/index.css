@@ -1,0 +1,43 @@
+.one-div {
+    color: black;
+    /* background-color: #fff; */
+    text-shadow:0px 3px 0px red, 1px 5px 0px purple;
+    font-size:50px;
+}
+.two-div {
+    text-transform: uppercase;
+}
+.four-div {
+    text-transform: capitalize;
+}
+.three-div {
+    text-transform: lowercase;
+}
+div.lorem {
+    background-color: #EEE;
+    width:400px
+}
+div.lorem-two {
+    width:400px;
+    background-color: brown;
+}
+div.lorem-three {
+    background-color:#EEE;
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/* div.lorem-three:hover {
+    overflow: visible;
+
+} */
+a {
+    text-decoration: none;
+    background-color:#16a085;
+    padding: 20px;
+    color: #FFF;
+    display: inline-block;
+    border-bottom: solid #0a392c 10px;
+    text-transform:capitalize ;
+}

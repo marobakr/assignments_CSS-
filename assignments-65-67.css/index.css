@@ -1,0 +1,133 @@
+                            /* this is one task style */
+/* div { 
+    width: 300px;
+    height: 200px;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    color: #03a9f4;
+    font-size: xx-large;
+
+}
+div::after {
+    content: "";
+    width: 308px;
+    height: 210px;
+    background-color: #03a9f4;
+    position: absolute;
+    z-index: -1;
+    transform: rotate(-5deg);
+}
+div::before {
+    content: "";
+    width: 308px;
+    height: 210px;
+    background-color: #e91e63;
+    position: absolute;
+    z-index: -2;
+    transform: rotate(5deg);
+} */
+                            /* this is tow task style */
+                            
+/* div {
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+    border-radius: 50%;
+    margin:0px auto;
+    background-color: #eee;
+    align-items:center;
+    justify-content: center ;
+    display:flex;
+    font-size: 30px;
+    font-weight: bold;
+     this i another method */
+    /* display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+body {
+    margin: 50px;
+}
+div::before {
+    content: "";
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-image:linear-gradient(to right , #2196f3 83.5% , #ffff 83%);
+    background-color: #2196f3;
+    position: absolute;
+    z-index: -2;
+    transition: .5s;
+    transition-delay: .5s;    
+} 
+
+div::after {
+    content: "";
+    width: 225px;
+    height: 225px;
+    position: absolute;
+    z-index: -1;
+    border-radius: 50%;
+    background-image:linear-gradient(to left , #e91e63 82.5% , #ffff 83%);
+    transition: .5s;   
+}
+div:hover::after ,div:hover::before {
+    transform: rotate(1turn);
+    transition: .6s;
+}
+div:hover::before {
+    transition-delay: .7s;
+} */
+                            /* this is another way */
+div {
+    background-color: #eee;
+    width: 200px;
+    height: 200px;
+    margin: 30px auto;
+    color: #000;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    justify-content: center;
+    border-radius:50%;   
+}
+div::before {
+    content: "";
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border: 10px solid #e91e63;
+    border-radius: 50%;
+    border-left-color: #ffff;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s
+}
+div:after {
+    content:"";
+    width:220px;
+    height:220px ; 
+    position: absolute;
+    border: 10px solid #2196f3; 
+    border-radius: 50%;
+    border-right-color: #fff;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    transition-delay: .5s;
+}
+div:hover::before {
+    transform: rotate(360deg);
+}
+div:hover:after {
+    transform:rotate(1turn);
+
+} 

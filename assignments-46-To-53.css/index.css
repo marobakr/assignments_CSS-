@@ -1,0 +1,246 @@
+
+body {
+    display:flex;
+}
+ 
+                /* -------------this is a one task------------- */
+/* div {
+    margin-top: 0;
+    width: 100px;
+    height:100px;
+    text-align: center;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: orangered;
+    border-radius: 50%;
+    box-shadow: orangered;
+    box-shadow: 6px 0px 0px orangered,-6px 0px 0px rgb(0, 132, 255);
+} */
+
+                       /* -------------this is a tow task------------- */
+/* .parent {
+    background-color: #eee;
+    margin: 20px auto;
+    width: 600px;
+    height: 300px;
+    padding: 10px;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+    justify-content:space-between;
+    align-items: center;
+}
+.parent > div {
+    background-color: orange;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    display: flex;
+    width:calc(95%/3);
+    height:calc(40%/3);
+} */
+                       /* -------------this is a task three------------- */
+/* .parent {
+    width: 600px;
+    height: 300px;
+    background-color: #eee;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top:11px;
+    padding-bottom:11px;
+    flex-direction: row;
+    
+}
+.parent > div {
+    align-items: center;
+    flex-basis: calc(95%/ 3);
+    justify-content: center;
+    display: flex;
+    background-color: rgb(22 58 71 / 61%);}
+.one {
+    order: 6;
+    align-self: flex-end;
+    height: 25px;
+}
+.two {
+    order: 5;
+}
+.three {
+    order: 2;
+    align-self: flex-start;
+    height: 25px;
+}
+.four {
+    order: 3;
+}
+.five {
+    order: 4;
+}
+.six {
+    order: 1;
+} */
+                       /* -------------this is a task four------------- */
+/* .parent {
+    width: 600px;
+    height: 300px;
+    background-color: #eee;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    padding: 10px;
+}    
+.parent > div {
+    background-color: #009688;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-basis: calc(90%/3);
+    align-items:center ;
+    padding: 10px;
+}
+.one {
+    align-self: flex-end;
+}
+.two {
+    align-self:flex-start;
+    width:calc(50% /1)
+}
+.three {
+    align-self:flex-end;
+} */
+
+
+                       /* -------------this is a task five------------- */
+/* .parent {
+    width:600px;
+    height: 300px;
+    background-color: #eee;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.parent > div {
+    align-items: center;
+    flex-direction: column;
+    flex-basis: calc(75% /4) ;
+    display: flex;
+    justify-content:center;
+}
+.one {
+    order: 2;
+    height: 50%;
+    align-self: flex-start;
+    background-color: #ff9800;
+}
+.two {
+    order: 3;
+    height: 50%;
+    align-self: flex-end;
+    background-color: #8bc34a;
+
+
+}
+.three {
+    order: 4;
+    height: 50%;
+    align-self: flex-start;
+    background-color: #795548;
+    
+}
+.four {
+    order: 1;
+    height: 50%;
+    align-self: flex-end;
+    background-color: #673ab7; 
+} */
+                       /* -------------this is a task six------------- */
+/* .page {
+    display: flex;
+    flex-flow: column wrap;
+    width: 1500px;
+    height: 470px;
+    background-color: #eee;
+    justify-content: space-evenly;
+
+}
+li {
+    list-style: none;
+    width: 6%;
+}
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    height: 12%;
+}
+.logo {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    width: 6%;
+    background-color: #ddd;
+}
+.links {
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 60px;
+    background-color: #ddd;
+    display: flex;
+    justify-content:flex-end;
+    width: 90%;
+}
+
+.main-area {
+    display: flex;
+    width: 100%;
+    height: 66%;
+    justify-content: space-around;
+}
+.content {
+    width: 70%;
+    padding-left: 3px;
+    padding-top: 5px;
+    display: flex;
+    background-color: #ddd;
+}
+.sidebar {
+    display: flex;
+    padding-top: 5px;
+    width: 24.5%;
+    background-color: #ddd;
+    padding-left: 6px
+}
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 64px;
+    height: 55px;
+}
+.copyright {
+    display: flex;
+    padding-top: 5px;
+    width: 87%;
+    padding-left: 3px;
+    height: 50px;
+    background-color: #ddd;
+}
+.design {
+    padding-left: 6px;
+    display: flex;
+    height: 50px;
+    padding-top: 5px;
+    width: 24%.5;
+    background-color: #ddd;
+    width: 10%;
+
+} */

@@ -1,0 +1,17 @@
+div {
+    width: 600px;
+    height: 200px;
+       position: relative;
+       margin-top: 5%;
+       background-color: #eee;
+    }
+    div::before {
+    content: '';
+    position: absolute;
+    background-color: red;
+    width: 100%;
+    top: -3%;
+    height: 3%;
+    background-image: linear-gradient(to right, red 10%,yellow 10%,yellow 20%, green 20% , green 30%, blue 30% ,blue 40%, black 40%, black 50%, #673ab7 50% ,#673ab7 60% , #03a9f4 60% , #03a9f4 70% , #1a0b06 70% , #1a0b06 80% ,#795548 80%, #795548 90%, #009688 90% );
+
+}

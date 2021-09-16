@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    min-height: 100vh;
+    display: grid;
+    grid-template:  
+    "one one tow three"1fr 
+    "four five five three" 1fr  
+    "four six six three" 1fr 
+    "seven eight nine ten"   / 1fr 1fr 1fr 1fr;
+    /* --------this is one way--------
+        grid-template-columns: repeat(4 , 1fr );
+  */
+    gap: 0.625em;
+    padding: 2.5em;
+    background-color: #ddd;
+}
+div {
+    position: relative;
+    background-color: #fff;
+    padding: 1.25em;
+    border-bottom: 0.1875em solid red;
+    display: grid;
+    place-content: flex-start;
+    gap: 0.625em;
+}
+div::after {
+    content: "";
+    position: absolute;
+    bottom: 0.625em;
+    right: 0.625em;
+    padding:0.4375em 0.15625em; 
+    background-color: #b3b3b3;
+    border-radius: 0 0 100% 100%;
+    transform: rotate(10deg);
+    box-shadow: -0.625em 0 0 0#b3b3b3;
+}
+div:first-child {
+    grid-area: one;
+}
+div:nth-child(2) {
+    grid-area: tow;
+}
+div:nth-child(3) {
+    grid-area: three;
+    background-color: black;
+    color: white;}
+div:nth-child(4) {
+    grid-area: four;
+}
+div:nth-child(5) {
+    grid-area: five;
+    background-color: black;
+    color: white;
+}
+div:nth-child(6) {
+    grid-area: six
+}
+div:nth-child(7) {
+    grid-area: seven;
+}
+div:nth-child(8) {
+    background-color: black;
+    grid-area: eight;
+    color: white;
+}
+div:nth-child(9) {
+    grid-area: nine;
+}
+div:last-child {
+    grid-area:ten ;
+}
+h5 {
+    color: #a8a8aa;
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 1em;
+}
+div > P:first-of-type {
+    margin-top: 0.9375em;
+    font-weight: bolder;
+}
+

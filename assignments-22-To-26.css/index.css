@@ -1,0 +1,49 @@
+body {
+    font-size: 40px
+}
+/* div {
+    border: 2px orangered solid;
+    margin: 20px;
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+}
+p {
+    border:inherit;
+    padding: inherit;
+    margin: inherit;
+    background-color: #EEE;
+}
+.one-div {
+    border: 2px rgb(55, 0, 255) solid;
+
+} */
+
+p {
+    text-transform: capitalize;
+}
+.one-p {
+    font-family: 'Open Sans', sans-serif;}
+.two-p { 
+    font-style: italic;
+    font-family: 'Cairo', sans-serif;
+}
+.three-p {
+    font-family: 'Jomhuria', cursive;}
+.four-p {
+    /*rem ==> to take from html toor*/
+    /*em ==> to take from body*/
+    font-size: 2.5rem;/* to take from html root */
+    font-size: 50px; 
+    font-size: 1.25em;/* to take from body*/
+}
+.fiv-p {
+    font-size: 40px;
+    font-size: 2rem;
+    font-size: 1em;
+}
+.six-p {
+    font-size: 30px;
+    font-size: 1.5rem;
+    font-size: 0.75em  ;
+}

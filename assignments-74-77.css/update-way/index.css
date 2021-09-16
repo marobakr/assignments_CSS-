@@ -1,0 +1,95 @@
+.grid-template {
+    width : 590px ;
+    height : 590px ;
+    margin : auto ;
+    display : grid ;
+    grid-template : repeat( 8 , 1fr) / repeat( 8 , 1fr);
+    gap : 20px
+  }
+  .grid-template > div {
+    background-color: #323234;
+    position: relative;
+  }
+  /*grid-row-start :1
+    grid-column-start :1 
+    grid-row-end : 5 
+    grid-column-end 1 */
+  .grid-template > .one {grid-area: 1 / 1/ 8 / 1}
+  .grid-template > .tow { grid-area: 4 / 1/ 5 / 6}
+  .grid-template > .three { grid-area:1 / 1 / 1 / 6}
+  .grid-template > .four {grid-area:7 / 1 / 7 / 6 }
+  .grid-template > .five {grid-area: 1 / 6 / 8 / 6}
+  .grid-template > .six {grid-area: 7 / 6 / 7 / 9 }
+  /* animation for E */
+  .grid-template::before {
+    left: -140px;
+    content: "";
+    position: relative;
+    width: 41px;
+    height: 42px;
+    background-image: url(./IMG_20210705_161403.jpg);
+    background-size: 14px;
+    z-index: 1;
+    top: 8px;
+    animation: one-animation 9s 1;
+    animation-delay: 5s;
+   opacity: 0;
+  }
+  @keyframes one-animation {
+    5% { transform : translate( 0px, 0px );
+    opacity: 1;}
+    10% { transform : translate( -308px , 0px );
+    opacity: 1;}
+    15% { transform: translate( -308px , 229px );
+      opacity: 1;}
+    20% { transform: translate( 0px , 229px );
+      opacity: 1;}
+    30% { transform: translate( -308px , 229px );
+      opacity: 1;}
+    40% { transform: translate( -308px , 459px );
+      opacity: 1;}
+    50% { transform: translate( 0px , 459px );
+      opacity: 1;}
+    60% {transform: translate( -308px , 459px );
+      opacity: 1;}
+    70% {transform: translate( -308px , 229px );
+    }
+    80% {transform: translate( 0px , 229px );
+      opacity: 1;}
+    85% {transform: translate( -308px , 229px );
+      opacity: 1;}
+    89% {transform: translate( -308px , 0px );
+    opacity: 1;}
+    100% {transform: translate( 0px , 0px );
+      opacity: 1;}
+  }
+  /* animation for l */
+  .grid-template >.six::after {
+    content: "";
+    left: 163px;
+    position: absolute;
+    width: 42px;
+    height: 40px;
+    background-image: url(./IMG_20210705_162359.jpg);
+    background-size: 14px;
+    z-index: 1;
+    top: 9px;
+    opacity: 0;
+    animation: tow-animation 5s 1;
+}
+  @keyframes tow-animation {
+  0%{ 
+      transform: translate(0);
+      opacity : 1 ;
+  }
+  20% { transform : translate(-153px, 0px); }
+  50% { transform : translate(-153px, -458px); }
+  80% { 
+      transform : translate(-153px, -458px); 
+      opacity : 1 ;
+        }
+  100% { 
+      transform : translate(-153px, -458px);
+      opacity : 0 ;
+  }
+  }

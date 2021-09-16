@@ -1,0 +1,88 @@
+div {
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+}
+div{
+    text-align: center;
+    background-color: #eee;
+}
+:empty {
+    background-color: red;
+}
+
+ div:nth-child(5)::first-letter {
+    background-color: red;
+    color: #fff;
+    border: 5px solid red;
+    margin-left: -81px;
+} 
+
+p {
+    background-color: #eee;
+    width: fit-content;
+    left: 115px;
+    position: relative;
+    padding: 13px;
+    border-left:  3px solid #185a69;
+
+}
+p::before {   
+    content: attr(data-person);
+    background-color: #eee;
+    padding: 10px;
+    margin-left: 5px;
+    left: -84px;
+    position: absolute;
+    top: 3.5px;
+    width: 43px;
+}
+p::after {
+    content: "";
+    position: absolute;
+    border-color: transparent #185a69  transparent transparent ;
+    border-style: solid ;
+    border-width: 10px;
+    right: 332px;
+}
+/* dont remmmber things */
+body{
+    counter-reset: my-sec-counter;
+}
+div {
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+}
+/* div{
+    text-align: center;
+    background-color: #eee;
+    position: relative;
+}
+div::before {
+    counter-increment: my-sec-counter;
+    content:counter(my-sec-counter);
+      padding: 20px;
+    background-color: teal;
+    position: relative;
+    left: -21px;
+    color: #fff;
+}
+div::after {
+    content: "";
+    width: 5px;
+    height: 57px;
+    background-color: teal;
+    top: 0;
+    position: absolute;
+    right: 0;
+} */
+/* this is anothre method */
+/* div {
+    border-right: teal;
+    border-style: solid;
+    border-width: 5px;
+    border-left:none ;
+    border-bottom: none;
+    border-top: none;
+} */

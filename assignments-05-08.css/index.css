@@ -1,0 +1,78 @@
+
+ p{
+     color:#FFFF;
+    width: 500px;
+    padding: 20px;
+    margin-left: 7px;
+}
+ p:first-child {
+    background-color: blueviolet; /* this is HSL*/
+    background-color: #8a2be2; /* this is HEX*/
+    background-color: rgb(112,31,189); /*RGB*/
+}
+.div{
+    background-color: rgb(112 31 189 / 50%); 
+}
+#div{
+background-color: rgb(112 31 189 / 5%);
+}
+div {
+    width: 400px;
+    height: 400px;
+    margin:0;
+    background-image:url(./image/fota-website-buttons-200px-x-200px.png);
+}
+/* .one {
+    background-repeat: no-repeat;
+}
+.tow {
+    background-repeat: repeat-y;
+}
+.three {
+    background-repeat: repeat-x;
+}
+.four {
+background-repeat: repeat;
+}
+.five {
+    background-position:top left ;
+    background-repeat: no-repeat;
+}
+.six{
+    background-position:top right ;
+    background-repeat: repeat-y;
+}
+.seven {
+ background-repeat: repeat-x;
+ background-position: bottom left ;
+}
+.eat {
+    background-repeat: repeat;
+} */
+.one-1 {
+    background-size: 80%;
+    background-position:left top;
+    background-repeat: no-repeat;
+
+}
+.tow-2 {
+    background-size: 80%;
+    background-position:right top;
+    background-repeat: no-repeat;
+
+}
+.thre-3 {
+    background-size: 80%;
+    background-position:bottom ;
+    background-repeat: no-repeat;
+
+
+
+}
+.four-4 {
+    background-size: 50%;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+
+
+}

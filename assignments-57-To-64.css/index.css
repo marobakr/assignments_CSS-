@@ -1,0 +1,170 @@
+                                                                /* this is one task style */
+
+/* .grid {
+  background-color: #ddd;
+  padding: 20px;
+  width: 800px;
+  height: 400px;
+  display: grid;
+  grid-template-columns:auto auto auto ;
+  grid-template-rows: 50px auto ;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  position: relative;
+  counter-reset: my-sec-counter;
+}
+.grid > div {
+  counter-reset:css-counter 0;
+  background-color: #607d8b;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+.grid > div::after {
+  content: "";
+  counter-increment: my-sec-counter 1;
+  content: "Elemnt " counter(my-sec-counter);
+  color: #fff;
+} */
+
+                                                                /* this is two task style */
+/* * ::after {
+  width: 10%;
+  height: 30px;
+  color: #fff;
+  padding-left :10px
+
+}
+.layout {
+  display: grid;
+  height: 100vh;
+  background-color: #eee;
+  grid-template-columns:repeat(15, 1fr);
+  grid-template-rows: 10% auto 10%;
+  grid-template-areas: "header header header header header header header header header header header header header header header" "section section section section section section section section section section section section aside aside aside " "footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer";
+}
+header {
+  display: grid;
+  grid-area:header;
+  background-color: #03a9f4;
+  color: #dddd;
+  position: relative;
+}
+header::after {
+  content: 'headr';
+
+}
+section {
+  display: grid;
+  grid-area: section;
+  color:#fff;
+  background-color: #ff5722;
+  position: relative;
+}
+section::after {
+  content: "section";
+}
+aside {
+  grid-area: aside;
+  display:grid;
+  position: relative;
+  background-color: #607d8b;
+}
+aside::after {
+  content: " aside";
+}
+footer {
+  display: grid;
+  grid-area: footer;
+  background-color: #009688;
+  position: relative;
+}
+footer::after {
+  content: "footer";
+} */
+                                                                /* this is three task style */
+/* .grid {
+  background-color: #ddd;
+  padding: 20px;
+  width: 800px;
+  display: grid;
+  height: 400px;
+  gap: 10px;
+  grid-template-columns: auto 1fr 1fr auto;
+  grid-template-rows: 1fr auto;
+}
+.grid > div {
+  color:#fff;
+  background-color: #403f3f;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+} */
+                                                                /* this is four task style */
+/* .grid {
+  background-color: #ddd;
+  padding: 20px;
+  width: 800px;
+  height: 400px;
+  justify-content: space-around;
+  display: grid;
+  grid-template-rows: repeat(6, auto);
+  grid-template-columns:repeat(10, 1fr);
+  column-gap: 11px;
+  row-gap: 24px;                                            
+                                                -------another method
+  grid-template-areas: "one one one one one one one one one one";
+}
+.grid > div {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background-color: #2196f3;
+  color:#fff;
+}
+.one {
+  order: 8;
+}
+.one,.eight {
+  grid-column: 1 / span 10;
+}
+.two {
+  grid-column: 1 / 7;
+}
+.three {
+  grid-column: 7 / 11;
+}
+.four {
+  grid-column: 1 / span 3;
+}
+.five {
+  grid-column: 4 / 11;
+  grid-row: 3 / 6;
+}
+.six ,.seven {
+  grid-column:1 /4 ;
+}
+.eight {
+  order: -2
+} */
+                                                                /* this is four task style */
+
+/* .grid {
+  background-color: #ddd;
+  padding: 20px;
+  width: 800px;
+  height: 400px;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto;
+  display: grid;
+  column-gap: 20px;
+  row-gap: 90%;
+}
+.grid > div{
+  display:grid;
+  align-items: center;
+  color:#fff;
+  justify-content: center;
+  background-color:#e91e63;
+}
+ */
