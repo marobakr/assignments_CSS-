@@ -1,56 +1,55 @@
-                                    /* this is frist task */
-/* div {
-    width: 50px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: transparent;
-    border-radius: 50%;
-    border: solid 7px #f31d59;
-    border-top: transparent solid 7px;
-    position: relative;
-    margin: 50px auto;
-    transition: .5s;
-    animation-name: move ;
-    animation-iteration-count: infinite;
-    animation-duration: 1s ;
-    animation-timing-function: linear;
-    animation-play-state: running;
+/* this is frist task */
+div {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border-radius: 50%;
+  border: solid 7px #f31d59;
+  border-top: transparent solid 7px;
+  position: relative;
+  margin: 50px auto;
+  transition: 0.5s;
+  animation-name: move;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-play-state: running;
 }
 @keyframes move {
-    0% {
-        transform: rotate(0deg);
-        transform: rotate(360deg);
-    }
-    100% {
-    }
+  0% {
+    transform: rotate(0deg);
+    transform: rotate(360deg);
+  }
+  100% {
+  }
 }
 div::after {
-    content: "";
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    border: #1d90fe 7px solid;
-    position: absolute;
-    border-top: transparent solid 7px;
-    transform: rotateZ(
-175deg
-);
+  content: "";
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: #1d90fe 7px solid;
+  position: absolute;
+  border-top: transparent solid 7px;
+  transform: rotateZ(175deg);
 }
-div::before { 
-    content: "";
-    width: 90px;
-    height: 90px;
-    background-color: transparent;
-    border-radius: 50%;
-    position: absolute;
-    border: 7px solid #fc9a00;
-    border-left: transparent solid 7px;
+div::before {
+  content: "";
+  width: 90px;
+  height: 90px;
+  background-color: transparent;
+  border-radius: 50%;
+  position: absolute;
+  border: 7px solid #fc9a00;
+  border-left: transparent solid 7px;
 }
 div:hover {
-    animation-play-state: paused;
-} */
+  animation-play-state: paused;
+}
+*/
 
 /* 
 *,
@@ -108,7 +107,7 @@ div:hover {
 div:last-of-type:hover {
   transform: rotateX(180deg);
 }
- */
+
   
                                      /* this is second task */
 /* div {
@@ -231,21 +230,20 @@ div:hover {
 }
 } */
                                      /* this is four task */
-body            
-{
-    margin:auto;
-    padding:10px;
-    background-color:#fff;
-    font-size:14px;
-    font-family:Verdana;
+body {
+  margin: auto;
+  padding: 10px;
+  background-color: #fff;
+  font-size: 14px;
+  font-family: Verdana;
 }
 .grid-template {
-  width : 590px ;
-  height : 590px ;
-  margin : auto ;
-  display : grid ;
-  grid-template : repeat( 8 , 1fr) / repeat( 8 , 1fr);
-  gap : 20px
+  width: 590px;
+  height: 590px;
+  margin: auto;
+  display: grid;
+  grid-template: repeat(8, 1fr) / repeat(8, 1fr);
+  gap: 20px;
 }
 .grid-template > div {
   background-color: #323234;
@@ -255,12 +253,24 @@ body
   grid-column-start :1 
   grid-row-end : 5 
   grid-column-end 1 */
-.grid-template > .one {grid-area: 1 / 1/ 8 / 1}
-.grid-template > .tow { grid-area: 4 / 1/ 5 / 6}
-.grid-template > .three { grid-area:1 / 1 / 1 / 6}
-.grid-template > .four {grid-area:7 / 1 / 7 / 6 }
-.grid-template > .five {grid-area: 1 / 6 / 8 / 6}
-.grid-template > .six {grid-area: 7 / 6 / 7 / 9 }
+.grid-template > .one {
+  grid-area: 1 / 1/ 8 / 1;
+}
+.grid-template > .tow {
+  grid-area: 4 / 1/ 5 / 6;
+}
+.grid-template > .three {
+  grid-area: 1 / 1 / 1 / 6;
+}
+.grid-template > .four {
+  grid-area: 7 / 1 / 7 / 6;
+}
+.grid-template > .five {
+  grid-area: 1 / 6 / 8 / 6;
+}
+.grid-template > .six {
+  grid-area: 7 / 6 / 7 / 9;
+}
 /* animation for E */
 .grid-template::before {
   left: -140px;
@@ -275,21 +285,45 @@ body
   animation-delay: 5s;
 }
 @keyframes one-animation {
-  10% { transform : translate( -308px , 0px )}
-  15% { transform: translate( -308px , 229px )}
-  20% { transform: translate( 0px , 229px )}
-  30% { transform: translate( -308px , 229px )}
-  40% { transform: translate( -308px , 459px )}
-  50% { transform: translate( 0px , 459px )}
-  60% {transform: translate( -308px , 459px )}
-  70% {transform: translate( -308px , 229px )}
-  80% {transform: translate( 0px , 229px )}
-  85% {transform: translate( -308px , 229px )}
-  90% {transform: translate( -308px , 0px )}
-  100% {transform: translate( 0px , 0px )}
+  10% {
+    transform: translate(-308px, 0px);
+  }
+  15% {
+    transform: translate(-308px, 229px);
+  }
+  20% {
+    transform: translate(0px, 229px);
+  }
+  30% {
+    transform: translate(-308px, 229px);
+  }
+  40% {
+    transform: translate(-308px, 459px);
+  }
+  50% {
+    transform: translate(0px, 459px);
+  }
+  60% {
+    transform: translate(-308px, 459px);
+  }
+  70% {
+    transform: translate(-308px, 229px);
+  }
+  80% {
+    transform: translate(0px, 229px);
+  }
+  85% {
+    transform: translate(-308px, 229px);
+  }
+  90% {
+    transform: translate(-308px, 0px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
 }
 /* animation for l */
-.grid-template >.six::after {
+.grid-template > .six::after {
   content: "";
   left: 163px;
   position: absolute;
@@ -302,18 +336,22 @@ body
   animation: tow-animation 5s 1;
 }
 @keyframes tow-animation {
-0%{ 
+  0% {
     transform: translate(0);
-    opacity : 1 ;
-}
-20% { transform : translate(-153px, 0px); }
-50% { transform : translate(-153px, -458px); }
-80% { 
-    transform : translate(-153px, -458px); 
-    opacity : 1 ;
-      }
-100% { 
-    transform : translate(-153px, -458px);
-    opacity : 0 ;
-}
+    opacity: 1;
+  }
+  20% {
+    transform: translate(-153px, 0px);
+  }
+  50% {
+    transform: translate(-153px, -458px);
+  }
+  80% {
+    transform: translate(-153px, -458px);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-153px, -458px);
+    opacity: 0;
+  }
 }
